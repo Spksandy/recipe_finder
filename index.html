@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Quest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="https://image.shutterstock.com/image-vector/rq-letter-logo-design-template-260nw-1140148130.jpg" alt="Recipe Finder Logo" class="logo">
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="menu.html">Menu List</a>
+    </nav>
+    <!-- Home -->
+    <div class="bq"> <h2 class = "title">Find Meals For Your Ingredients</h2>
+      <blockquote class="qoute">Real food doesn't have ingredients, real food is ingredients.<br>
+        <cite>- Jamie Oliver</cite>
+      </blockquote>
+    </div>
+    <div class="container">
+       
+      <div class="search-container">
+        <input
+          type="text"
+          placeholder=" Dish Name"
+          id="user-inp"
+        />
+        <button id="search-btn">Search</button>
+        <ul class="searchResults" id="searchResults"></ul>
+      </div>
+      <div id="result"></div>
+    </div>
+
+<!-- About -->
+<div class="abt-section">
+
+
+  <section id="about">
+      <h2>About Us</h2>
+      <div class="about-content">
+          <p>Welcome to Recipe Finder, your go-to destination for discovering and creating delicious recipes! We believe that everyone can be a chef, and our platform is designed to make cooking an enjoyable experience for you.</p>
+
+          <p>At Recipe Finder, we offer a vast collection of recipes for every taste and occasion. Whether you're a beginner or a seasoned chef, you'll find inspiration and guidance to create mouthwatering dishes right in your kitchen.</p>
+
+          <p>What sets us apart is our commitment to providing 24x7 service and customer care. We understand that your culinary journey may not be confined to regular business hours, so our support team is always ready to assist you, ensuring that you have a seamless experience on our platform.</p>
+
+          <p>Start exploring our recipes, and embark on a culinary adventure with Recipe Finder!</p>
+      </div>
+      <div class="about-images">
+          <img src="https://plus.unsplash.com/premium_photo-1676106623769-539ecc6d7f92?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZvb2R8ZW58MHx8MHx8fDA%3D" alt="Chef preparing a delicious dish">
+          <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvb2R8ZW58MHx8MHx8fDA%3D" alt="Fresh ingredients for cooking">       
+        
+      </div>
+  </section>
+</div>
+
+
+
+<!-- Contact us -->
+<div class="contact-section">
+  <h2>Contact Us</h2>
+  <div class="form-container">
+    <form>
+      <div class="form-group">
+        <label for="mobileNumber">Mobile Number</label>
+        <input type="tel" id="mobileNumber" name="mobileNumber" placeholder="Enter your mobile number" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Recipe Finder. All rights reserved.</p>
+  </footer>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
